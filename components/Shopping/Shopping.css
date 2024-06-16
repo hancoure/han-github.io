@@ -1,0 +1,117 @@
+.shopping-container {
+    border-radius: 30px;
+    z-index: 100;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: var(--spacing-large);
+    background-color: rgb(241, 241, 241);
+    box-shadow: var(--box-shadow);
+}
+.shopping-element__name {
+    padding: var(--spacing-medium);
+    font-weight: 300;
+}
+.shopping-element__price {
+    padding: var(--spacing-medium);
+    color: var(--color-unaccent);
+}
+.shopping__close {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 35px;
+    right: 30px;
+    background-image: url(img/close.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.shopping__checkout{
+    width: 120px;
+    height: 40px;
+    color: #000000;
+    border-radius: 8px;
+    margin: 10px 0px;
+    padding: 0px 0px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+      7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.shopping__buttons{
+position: relative;
+margin-top: 30px;
+}
+
+h3{
+    font-weight: 500;
+}
+
+.form {
+    width: 300px;
+    margin: 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.form__stripes-block {
+    margin-bottom: 10px;
+}
+
+.form h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+.form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form__group label {
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+.form__group input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.form__submit-block {
+    text-align: center;
+    margin-top: 15px;
+}
+.shopping__checkout {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bb8866;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.shopping__checkout:hover {
+    background-color: #a78873;
+}
+.form__send-result {
+    margin-top: 10px;
+    text-align: center;
+    color: #70b45f;
+    font-size: 15px;
+}
